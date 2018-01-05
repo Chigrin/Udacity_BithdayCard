@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.chigrin.bithdaycard.MainActivity">
 
-
     <ImageView
         android:src="@drawable/scetch"
         android:id="@+id/imageView"
@@ -18,20 +17,34 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:text="@string/happy"
         android:textColor="@android:color/white"
-        android:fontFamily="sans-serif-light"
-        android:text="Happy bithday, Andrew!"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:alpha = ".8"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        android:text="@string/from"
         android:textColor="@android:color/white"
-        android:fontFamily="sans-serif-light"
-        android:text="From Roman"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:alpha = ".8"/>
 
 
 
